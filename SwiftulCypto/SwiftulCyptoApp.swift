@@ -11,7 +11,11 @@ import SwiftUI
 struct SwiftulCyptoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                HomeView()
+                    .navigationBarHidden(false)
+                   
+            }
         }
     }
 }
